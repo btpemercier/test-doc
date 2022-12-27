@@ -4,3 +4,9 @@ theme:
 
 plugins:
     - search
+    - multirepo:
+        cleanup: true
+        repos:
+          - section: Backstage
+            # you can define the edit uri path
+            import_url: 'https://github.com/backstage/backstage?edit_uri=/blob/master/'
